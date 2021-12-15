@@ -74,6 +74,9 @@
 /* Patch version of the LLVM API */
 #define LLVM_VERSION_PATCH ${LLVM_VERSION_PATCH}
 
+/* LLVM version suffix */
+#cmakedefine LLVM_VERSION_SUFFIX "${LLVM_VERSION_SUFFIX}"
+
 /* LLVM version string */
 #define LLVM_VERSION_STRING "${PACKAGE_VERSION}"
 
